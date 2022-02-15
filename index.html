@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,500;1,100;1,200&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b6146a1856.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<section class="header">
+<nav>
+    <a href="index.html"><img src="images/logo2.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">VIDEO</a></li>
+            <li><a href="">FISHDETAILS</a></li>
+            <li><a href="">DIFFICULTY</a></li>
+            <li><a href="">CONTACT</a></li>
+            
+        </ul>
+    </div>
+  <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+    <h1>Fish In Fishing Planet</h1> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repellat error nemo excepturi officiis non voluptate et natus hic, amet numquam 
+    ratione ipsum fugit <br> laudantium! Magnam at tenetur dolorum soluta.</p>
+
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+
+
+</section>
+
+<!-----DIFFICULTY ------->
+
+<section class="difficulty">
+    <h1>Difficulty</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptates pariatur totam neque voluptatum! 
+        Asperiores quidem fuga eligendi, reprehenderit nisi, ipsam nihil nulla excepturi magni odio corporis aspernatur distinctio saepe.</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>Beginner</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Unde consectetur blanditiis pariatur cum quod ipsa totam quidem incidunt a, 
+                     voluptatibus corporis asperiores fugit eos earum nulla autem reiciendis veniam nobis.</p>
+            </div>
+            <div class="course-col">
+                <h3>Hard</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Unde consectetur blanditiis pariatur cum quod ipsa totam quidem incidunt a, 
+                     voluptatibus corporis asperiores fugit eos earum nulla autem reiciendis veniam nobis.</p>
+            </div> 
+
+            <div class="course-col">
+                <h3>Insane</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Unde consectetur blanditiis pariatur cum quod ipsa totam quidem incidunt a, 
+                     voluptatibus corporis asperiores fugit eos earum nulla autem reiciendis veniam nobis.</p>
+            </div>
+
+
+
+        </div>
+
+</section>
+
+
+<!-----Videos ------->
+
+<div class="container">
+    <h1>Video's For Today</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
+
+<div class="video-player" id="videoPlayer">
+    <video width="100%" controls onclick="" id="myVideo">
+        <source src="videos/v4.mp4" type="video/mp4">
+    </video>  
+
+</div>
+</div>    
+    </div>
+
+</section>
+
+
+
+<!-----Fish Details ------->
+<section class="FishDetails">
+    <h1>Fish-Details</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="FishDetails-col">
+            <img src="images/fish1.jpg">
+            <h3>African Big Eye Catfish.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nihil odio, quos quidem, 
+                possimus pariatur ea laboriosam optio voluptate quasi,
+                officiis praesentium accusantium necessitatibus iusto. Eaque vero eveniet suscipit aperiam?</p>
+        </div>
+        <div class="FishDetails-col">
+            <img src="images/fish2.jpg">
+            <h3>Hepsetus odoe. African Pike.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nihil odio, quos quidem, 
+                possimus pariatur ea laboriosam optio voluptate quasi,
+                officiis praesentium accusantium necessitatibus iusto. Eaque vero eveniet suscipit aperiam?</p>
+        </div>
+        <div class="FishDetails-col">
+            <img src="images/fish3.jpg">
+            <h3> African Sharptooth Catfish.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nihil odio, quos quidem, 
+                possimus pariatur ea laboriosam optio voluptate quasi,
+                officiis praesentium accusantium necessitatibus iusto. Eaque vero eveniet suscipit aperiam?</p>
+        </div>
+    
+        
+   
+    </div>
+
+</section>
+
+
+
+
+
+<!-----JavaScript for Toggle Menu ------->
+
+<script>
+    
+   var navLinks = document.getElementById("navLinks");
+   function showMenu () {
+       navLinks.style.right = "0";
+   }
+   function hideMenu () {
+       navLinks.style.right = "-200px";
+   }
+
+</script>
+
+
+<section class="About">
+    <h1>What about Me?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aliquid.  
+</p>
+
+        <div class="row">
+            <div class="About-col">
+                <img src="images/mike1.jpg">
+            <div>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur culpa quia inventore laudantium, 
+                  perferendis illum officia fuga recusandae blanditiis, 
+                  ea nobis magni. Necessitatibus perspiciatis culpa sed porro ad a quod.
+              </p>
+              <h3>Michael Jay Raboy</h3>
+            </div>
+            </div>
+
+
+        </div>
+
+
+
+</section>
+
+
+
+    
+</body>
+</html>
